@@ -32,7 +32,7 @@ model = ChatGroq(
 toolkit = SQLDatabaseToolkit(db = db, llm = model)
 tools = toolkit.get_tools()
 
-#system prompt so agent coud know how to behave
+#system prompt so agent could know how to behave
 
 system_prompt = """
 You are an AI task management assistant that manages tasks stored in a SQL database.
