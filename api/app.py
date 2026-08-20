@@ -46,4 +46,12 @@ add_routes(
 )
 
 if __name__=='__main__':
-    uvicorn.run(apps,host='localhost',port = 3030)
+    uvicorn.run(apps,host='localhost',port = 3030
+
+                
+                
+                
+
+
+
+                )
